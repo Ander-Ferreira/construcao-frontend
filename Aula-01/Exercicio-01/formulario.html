@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="./index.html" target="_blank">Home </a></li>
+        <li><a href="./tabelas.html" target="_blank"> Tabelas</a></li>
+    </ul>
+
+    <h1>Usuários</h1>
+
+    <form action="">
+        <label for="nome">Nome: <input type="text" name="Nome" id="nome"></label><br>
+        <label for="telefone"> Telefone:<input type="number" name="Telefone" id="telefone"></label><br>
+        <label for="email">Email:<input type="email" name="Email" id="email"></label><br>
+        <label for="senha">Senha:<input type="password" name="Senha" id="senha"></label><br>
+        <label for="escolha"> Sexo Masculino: <input type="radio" name="escolha" id="escolha" value="M"></label>
+        Feminino:<input type="radio" name="escolha" id="escolha" value="F"></label><br>
+        <label for="uf"> Uf: <select name="seleção" id="uf"></label>
+        <option value="">Selecione</option><br>
+        <option value="df">Df</option><br>
+        <option value="go">Goiás</option><br>
+        <option value="mg">Minas Gerais</option><br>
+        </select><br>
+        <label for="Cidade"> Cidade: <select name="seleção" id="Cidade"></label>
+        <option value="">Selecione</option><br>
+        <option value="ce">Ceilândia</option><br>
+        <option value="tg">Taguatinga</option><br>
+        <option value="pl">Planaltina</option><br>
+        </select>
+
+        <fieldset>
+            <label for="Hobbies"><legend align="left">Hobbies</legend></label>
+            Musica:<input type="checkbox" name="hobbies[]" id="musica"><br>
+            Futebol:<input type="checkbox" name="hobbies[]" id="futebol"><br>
+            Artes:<input type="checkbox" name="hobbies[]" id="artes"><br>
+            Jogos:<input type="checkbox" name="hobbies[]" id="jogos"><br>
+            Cozinha:<input type="checkbox" name="hobbies[]" id="cozinha"><br>
+        </fieldset><br>
+
+        <label for="Observação">Observação:</label>
+        <form>
+            <textarea cols="33" rows="5" name="comentario" id=""></textarea><br>
+            <input type="submit" value="Salvar"> <input type="reset" value="Limpar"> <input type="button"
+                value="Voltar">
+
+        </form>
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

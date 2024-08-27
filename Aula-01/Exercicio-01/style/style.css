@@ -1,0 +1,41 @@
+
+h2 {
+    text-align: center;
+    text-indent: 50px;
+    border-color: darkgreen;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    background-color: rgb(60, 255, 0);
+
+}
+
+p{
+    text-align: center;
+    text-indent: 50px;
+    border-color: darkgreen;
+    border-style: solid;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    background-color: rgb(60, 255, 0);
+}
+
+.principal{
+    color:blue;
+    font-size: 30px;
+    border: red solod 1px;
+    margin: 30px;
+    padding: 20px;
+}
+
+#principal{
+    color:red;
+    font-size: 25;
+    margin: 30px;
+    padding: 20px
+
+}
