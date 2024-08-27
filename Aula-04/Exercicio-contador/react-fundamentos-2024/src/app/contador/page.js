@@ -27,7 +27,7 @@ export default function Contador() {
 
     return (
         <>
-            <Pagina titulo='Titulo'></Pagina>
+            <Pagina titulo='Contador'></Pagina>
             <h1>{numero}</h1>
 
             {/*Funçõs em jsx não são chamadas com o parantese no final alterarNumero(), são chamadas assim: alterarNumero */}
