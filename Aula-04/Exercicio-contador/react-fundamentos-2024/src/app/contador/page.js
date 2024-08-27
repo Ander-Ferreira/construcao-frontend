@@ -4,7 +4,7 @@ import Pagina from "@/app/components/Pagina";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 
-export default function Page() {
+export default function Contador() {
 
     let [numero, setNumero] = useState(0)
 
