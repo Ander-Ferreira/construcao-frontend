@@ -38,6 +38,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ctrl shift p, seleciona save from selection
 
+npm install axios
+
+
 
 
 
