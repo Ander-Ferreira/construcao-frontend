@@ -51,6 +51,8 @@ export default function Cards() {
                     item sendo preenchidas dinâmicamente enquanto o meu loop map percorrer o
                     array de objetos da disney
                     */
+                    
+                    //Para cada primeiro elemento do meu loop coloco key = {id} para não dar erro, não é um erro impeditivo, vai funcionar sem isso, mas fará performar melhor
 
                     <Col key={item._id}> {/*Acesso os itens da mesma forma que acesso em objetos, no caso
                     estou usando item, porque o item está percorrendo o meu array de objetos. */}
